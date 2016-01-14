@@ -17,11 +17,14 @@ We will be using Angular2, Node.JS, TypeScript,ES6, TravisCI, We're also using P
 ##Quick start
 >
 
-### install the repo with npm
+### 1. clone repo
+    1. git clone https://github.com/dkingori1/ansira-app-generator.git
+
+### 2. install dependencies
     1. npm install
 
-### start with link
-    2. npm link
+### 3. Link generetor
+    1. npm link
 
 
 # Ansira Mobile App Generator
@@ -59,4 +62,13 @@ We will be using Angular2, Node.JS, TypeScript,ES6, TravisCI, We're also using P
 ###8. npm install -g nativescript(possibly abstract to alfred generator)
 
 ###9. tns doctor to confirm install
+
+### 10. clone repo
+    1. git clone https://github.com/dkingori1/ansira-app-generator.git
+
+### 11. install dependencies
+    1. npm install
+
+### 12. Link generetor
+    1. npm link
 
