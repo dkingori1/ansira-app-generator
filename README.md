@@ -18,10 +18,10 @@ We will be using Angular2, Node.JS, TypeScript,ES6, TravisCI, We're also using P
 >
 
 ## install the repo with npm
-npm install
+    1. npm install
 
 ## start with link
-npm link
+    2. npm link
 
 
 # Ansira Mobile App Generator
