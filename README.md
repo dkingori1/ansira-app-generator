@@ -37,8 +37,11 @@ We will be using Angular2, Node.JS, TypeScript,ES6, TravisCI, We're also using P
 
 ###3. Download Homebrew
     1. ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+###4. Install and configure CocoaPods
+    1. sudo gem install cocoapods
+    2. pod setup
 
-###4. Download JDK 8+(http://www.oracle.com/technetwork/java/javase/downloads/index.html)
+###5. Download JDK 8+(http://www.oracle.com/technetwork/java/javase/downloads/index.html)
     1. set JAVA_HOME system environment variable
     2. export JAVA_HOME=$(/usr/libexec/java_home)
     
@@ -47,10 +50,10 @@ We will be using Angular2, Node.JS, TypeScript,ES6, TravisCI, We're also using P
     2. set up ANDROID_HOME system environment variable
         *export ANDROID_HOME=Path to Android installation directory
     
-###6. Download Android Support Repository and Android SDK Build-tools 22.0.0+
+###7. Download Android Support Repository and Android SDK Build-tools 22.0.0+
     1. android update sdk --filter tools,platform-tools,android-22,build-tools-22.0.1,extra-android-m2repository,extra-google-m2repository,extra-android-support --all --no-ui
 
-###7. Download Genymotion
+###8. Download Genymotion
     1. Need VirtualBox(https://www.virtualbox.org/wiki/Downloads)
     2. Download Genymotion(https://www.genymotion.com/#!/download)
     3. add file paths to the PATH system environment variable
@@ -59,16 +62,16 @@ We will be using Angular2, Node.JS, TypeScript,ES6, TravisCI, We're also using P
         
         example: export PATH=$PATH:/Applications/Genymotion\ Shell.app/Contents/MacOS/:/Applications/Genymotion.app/Contents/MacOS/
 
-###8. npm install -g nativescript(possibly abstract to alfred generator)
+###9. npm install -g nativescript(possibly abstract to alfred generator)
 
-###9. tns doctor to confirm install
+###10. tns doctor to confirm install
 
-### 10. clone repo
+###11. clone repo
     1. git clone https://github.com/dkingori1/ansira-app-generator.git
 
-### 11. install dependencies
+###12. install dependencies
     1. npm install
 
-### 12. Link generetor
+###13. Link generetor
     1. npm link
 
