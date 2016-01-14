@@ -1,0 +1,29 @@
+{
+  "name": "generator-alfred",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "files": [
+    "app",
+    "router"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dkingori1/ansira-app-generator.git"
+  },
+  "keywords": [
+    "yeoman-generator"
+  ],
+  "author": "David Kingori",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dkingori1/ansira-app-generator/issues"
+  },
+  "homepage": "https://github.com/dkingori1/ansira-app-generator#readme",
+  "dependencies": {
+    "yeoman-generator": "^0.22.3"
+  }
+}
