@@ -14,13 +14,13 @@ We will be using Angular2, Node.JS, TypeScript,ES6, TravisCI, We're also using P
 * End-to-end Angular 2 code using Protractor.
 *
 
-### Quick start
+# Quick start
 >
 
-# install the repo with npm
+## install the repo with npm
 npm install
 
-# start with link
+## start with link
 npm link
 
 
