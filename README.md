@@ -1,6 +1,6 @@
 # Ansira Web App Generator
 
-#### Hello, What Can Alfred Do For You?
+## Hello, What Can Alfred Do For You?
 
 This Ansira Exclusive Generator serves to spin up a full scale multi tier Web or Mobile Application.
 
@@ -14,39 +14,40 @@ We will be using Angular2, Node.JS, TypeScript,ES6, TravisCI, We're also using P
 * End-to-end Angular 2 code using Protractor.
 *
 
-# Quick start
+##Quick start
 >
 
-## install the repo with npm
+### install the repo with npm
     1. npm install
 
-## start with link
+### start with link
     2. npm link
 
 
 # Ansira Mobile App Generator
-#Dependency Installation Documentation for Mobile generator
 
-##1. Download Xcode(AppStore)
+##Quick Start
 
-##2. Download Command Line tools for Xcode(AppStore)
+###1. Download Xcode(AppStore)
 
-##3. Download Homebrew
+###2. Download Command Line tools for Xcode(AppStore)
+
+###3. Download Homebrew
     1. ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 
-##4. Download JDK 8+(http://www.oracle.com/technetwork/java/javase/downloads/index.html)
+###4. Download JDK 8+(http://www.oracle.com/technetwork/java/javase/downloads/index.html)
     1. set JAVA_HOME system environment variable
     2. export JAVA_HOME=$(/usr/libexec/java_home)
     
-##5. Download Android SDK 22+
+###5. Download Android SDK 22+
     1. brew install android-sdk
     2. set up ANDROID_HOME system environment variable
         *export ANDROID_HOME=Path to Android installation directory
     
-##6. Download Android Support Repository and Android SDK Build-tools 22.0.0+
+###6. Download Android Support Repository and Android SDK Build-tools 22.0.0+
     1. android update sdk --filter tools,platform-tools,android-22,build-tools-22.0.1,extra-android-m2repository,extra-google-m2repository,extra-android-support --all --no-ui
 
-##7. Download Genymotion
+###7. Download Genymotion
     1. Need VirtualBox(https://www.virtualbox.org/wiki/Downloads)
     2. Download Genymotion(https://www.genymotion.com/#!/download)
     3. add file paths to the PATH system environment variable
@@ -55,7 +56,7 @@ We will be using Angular2, Node.JS, TypeScript,ES6, TravisCI, We're also using P
         
         example: export PATH=$PATH:/Applications/Genymotion\ Shell.app/Contents/MacOS/:/Applications/Genymotion.app/Contents/MacOS/
 
-##8. npm install -g nativescript(possibly abstract to alfred generator)
+###8. npm install -g nativescript(possibly abstract to alfred generator)
 
-##9. tns doctor to confirm install
+###9. tns doctor to confirm install
 
